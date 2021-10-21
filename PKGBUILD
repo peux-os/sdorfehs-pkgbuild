@@ -27,4 +27,3 @@ package() {
   install -Dm644 "${srcdir}/${_pkgname}.desktop" \
     "${pkgdir}/usr/share/xsessions/${_pkgname}.desktop"
 }
-
