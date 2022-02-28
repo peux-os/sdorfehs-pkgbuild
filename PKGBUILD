@@ -2,7 +2,7 @@
 
 pkgname=sdorfehs
 _pkgname="sdorfehs"
-pkgver=1.1
+pkgver=1.2
 pkgrel=1
 pkgdesc="Enhaced successor of Ratpoison window manager"
 conflicts=('sdorfehs')
