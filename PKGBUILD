@@ -2,15 +2,15 @@
 
 pkgname=sdorfehs
 _pkgname="sdorfehs"
-pkgver=1.2
+pkgver=1.3
 pkgrel=1
-pkgdesc="Enhaced successor of Ratpoison window manager"
+pkgdesc="Enhanced successor of Ratpoison window manager"
 conflicts=('sdorfehs')
 arch=('x86_64')
 license=('GPLv2')
 depends=('libxinerama' 'readline' 'bash' 'perl' 'libxtst' 'libxft' 'texinfo')
-url="https://github.com/jcs/sdorfehs"
-source=("${_pkgname}"::"git://github.com/jcs/sdorfehs.git#branch=master"
+url="git@github.com:jcs/sdorfehs.git"
+source=("${_pkgname}"::"git+https://github.com/jcs/sdorfehs.git#branch=master"
         "${_pkgname}.desktop")
 md5sums=('SKIP'
          'ba8b496db766ef5b2ad69ad9f7b32d71')
